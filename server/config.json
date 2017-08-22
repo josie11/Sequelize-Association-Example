@@ -1,0 +1,20 @@
+{
+  "development": {
+    "url": "postgres://postgres:password@localhost:5432/garden",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "null",
+    "password": null,
+    "database": "garden_Test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "null",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
